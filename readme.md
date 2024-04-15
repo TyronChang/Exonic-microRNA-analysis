@@ -10,7 +10,7 @@ This script is written by Tyron Chang , the programming languages and tools used
 
 ![Model](./pipeline.png)
 
-### Pipeline is shown above 
+### The pipeline is shown above 
 
 All the data cleaning is carried out with shell and python.
 
