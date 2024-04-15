@@ -19,3 +19,6 @@ Mouse_excel_file[[:space:]][[:space:]][[:space:]]/Mouse_exonic_miR_df.xlsx filte
 Mouse_excel_file[[:space:]][[:space:]][[:space:]]/Mouse_miR_type_finalized_df.xlsx filter=lfs diff=lfs merge=lfs -text
 Mouse_excel_file[[:space:]][[:space:]][[:space:]]/mouse_exonic_miR_list(all_host_genes)_NCBI.xlsx filter=lfs diff=lfs merge=lfs -text
 Mouse_excel_file[[:space:]][[:space:]][[:space:]]/mouse_exonic_miR_list(protein_coding_host_genes)_NCBI.xlsx filter=lfs diff=lfs merge=lfs -text
+Mouse_miRbase_file[[:space:]]/mmu.gff filter=lfs diff=lfs merge=lfs -text
+Human_miRbase_file[[:space:]]/hsa.gff filter=lfs diff=lfs merge=lfs -text
+Human_bed_file/human_nonoverlapmiR_NCBI.bed filter=lfs diff=lfs merge=lfs -text
