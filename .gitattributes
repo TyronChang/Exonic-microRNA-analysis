@@ -2,3 +2,7 @@ UCSC_data_Human/human_genes_010324_NCBI.csv filter=lfs diff=lfs merge=lfs -text
 Human_tsv_file/df_humanmiR_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
 Human_tsv_file/human_all_genes_no_miR_df_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
 Human_tsv_file/human_all_genes_no_miR_df_TX_loc_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
+Mouse_tsv_file/df_mousemiR_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
+Mouse_tsv_file/mouse_all_genes_no_miR_df_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
+Mouse_tsv_file/mouse_all_genes_no_miR_df_TX_loc_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
+UCSC_data_Mouse/mouse_genes_020324_NCBI.csv filter=lfs diff=lfs merge=lfs -text
