@@ -12,6 +12,8 @@ This script is written by Tyron Chang , the programming languages and tools used
 
 ### Pipeline is shown above 
 
-All the data cleaning is carried out with shell and python
+All the data cleaning is carried out with shell and python.
+
+Subsequent characterization of exon-derived miRNAs (GO analysis, heatmap, etc) was carried out with the metadata generated from this pipeline
 
 
