@@ -26,3 +26,6 @@ awk -F'\t' '{OFS="\t"; print $9, $10, $11, $12, $13, $14, $15}' human_nonoverlap
 
 #### This step is to regoranize columns in hsa.tsv file for python to read 
 awk -F'\t' '{OFS="\t"; print $1, $3, $4, $2, $8, $5, $7}' hsa.tsv > hsa_finalized.tsv
+
+mv *.tsv Human_tsv_file
+mv *.bed Human_bed_file
