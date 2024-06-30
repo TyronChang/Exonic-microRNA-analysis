@@ -19,4 +19,5 @@ bedtools intersect -a human_all_genes_no_miR_df_TX_loc_NCBI.bed -b human_nonover
 awk -F'\t' '{OFS="\t"; print $0}' human_intronic_opposite_miR_NCBI.bed>human_intronic_opposite_miR_NCBI.tsv
 awk -F'\t' '{OFS="\t"; print $9, $10, $11, $12, $13, $14, $15}' human_intronic_opposite_miR_NCBI.tsv>>human_miR_no_hostmRNA_NCBI.tsv
 
-
+mv *.tsv Human_tsv_file
+mv *.bed Human_bed_file
