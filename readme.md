@@ -19,9 +19,9 @@ All the data cleaning is carried out with shell and python.
 
 ### Data cleaning is done with python file. Here I use OOP to import a series of classes and methods:
 
-*  Data.ipynb ->this file is for data cleaning
+*  **Data.ipynb** ->this file is for data cleaning
 
-* Gene_func.ipynb-> this file will assign new column to the dataframe to indicate if the host gene is a protein coding or non-coding gene.
+* **Gene_func.ipynb**-> this file will assign new column to the dataframe to indicate if the host gene is a protein coding or non-coding gene.
 
 Subsequent characterization of exon-derived miRNAs (GO analysis, heatmap, etc) was carried out with the metadata generated from this pipeline
 
