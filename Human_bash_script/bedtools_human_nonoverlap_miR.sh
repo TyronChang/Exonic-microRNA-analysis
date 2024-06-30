@@ -3,6 +3,13 @@
 #==========
 #Using bedtools to find nonexonic microRNAs with and export it as tsv file
 #-v means find all the nonoverlapped regions -F 1 flag means 100% overlap of miR to the exon, -s means on the same strand
+
+#====================================
+#Order of the shell script:
+#1 exonic shell script
+#2 nonoverlap shell script
+#3 intronic shell script
+
 # This command will find all the nonexonic microRNAs (intronic and nonhostgene ones)
 
 bedtools intersect -a hsa.bed -b human_all_genes_no_miR_df_NCBI.bed -v >human_nonoverlapmiR_NCBI.bed 

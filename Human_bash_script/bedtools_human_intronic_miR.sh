@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#change tsv file in to bed file
+#human_all_genes_no_miR_df_TX_loc_NCBI.tsv is a file with transcription start and end coordinates instead of exon coordinates
 awk -F '\t' '{print $0}' human_all_genes_no_miR_df_TX_loc_NCBI.tsv> human_all_genes_no_miR_df_TX_loc_NCBI.bed 
 
 ### This command will find all the intronic micrornas

@@ -25,4 +25,12 @@ All the data cleaning is carried out with shell and python.
 
 Subsequent characterization of exon-derived miRNAs (GO analysis, heatmap, etc) was carried out with the metadata generated from this pipeline
 
+### More information about the following files:
+
+**Bed files**:
+1. all exonic miRs=> human_exonic_miR_NCBI.bed
+2. all intronic and no host genes miRs=> human_nonoverlapmiR_NCBI.bed
+3. all intronic miRs=> human_intronic_miR_NCBI.bed
+4. all no host genes miRs=> human_miR_no_hostmRNA_NCBI.bed
+
 
