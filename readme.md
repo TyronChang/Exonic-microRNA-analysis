@@ -12,7 +12,10 @@ This script is written by Tyron Chang , the programming languages and tools used
 
 ### The pipeline is shown above 
 
+The original data is retrieved from [UCSC genome table browser](https://genome.ucsc.edu/cgi-bin/hgTables)
+
 All the data cleaning is carried out with shell and python.
+
 
 ### Data cleaning is done with python file. Here I use OOP to import a series of classes and methods:
 
