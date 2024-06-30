@@ -19,7 +19,7 @@ All the data cleaning is carried out with shell and python.
 
 ### Data cleaning is done with python file. Here I use OOP to import a series of classes and methods:
 
-*  **Data.ipynb** ->this file is for data cleaning
+*  **Data.ipynb** ->this file is used for data cleaning, and it contains a series of methods in a class.
 
 * **Gene_func.ipynb**-> this file will assign new column to the dataframe to indicate if the host gene is a protein coding or non-coding gene.
 
