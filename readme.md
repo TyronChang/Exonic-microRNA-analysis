@@ -12,7 +12,8 @@ This script is written by Tyron Chang , the programming languages and tools used
 
 ### The pipeline is shown above 
 
-The original data is retrieved from [UCSC genome table browser](https://genome.ucsc.edu/cgi-bin/hgTables)
+miR loci data are retrieved from [miRbase](https://www.mirbase.org/download/)
+The original NCBI RefSeq data are retrieved from [UCSC genome table browser](https://genome.ucsc.edu/cgi-bin/hgTables)
 
 All the data cleaning is carried out with shell and python.
 
