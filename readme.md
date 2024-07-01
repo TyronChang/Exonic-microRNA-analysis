@@ -28,6 +28,8 @@ Mapping of the coordinates of miRNAs was done with Bedtools with additional shel
 
 * **`Gene_func.ipynb`**-> this file will assign new column to the dataframe to indicate if the host gene is a protein coding or non-coding gene.
 
+* **`Mouse_miR_analysis.ipynb`**-> this file is miR analysis in mouse.
+
 
 
 **Bed files**:
