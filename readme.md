@@ -7,16 +7,16 @@ This script is written by Tyron Chang , the programming languages and tools used
 3. Shell (use awk and basic command lines to convert tsv files into bed file)
 
 
-
+### The pipeline is shown below:
 ![Model](./pipeline.png)
 
-### The pipeline is shown above 
+### Source of the data
 
 miR loci data are retrieved from [miRbase](https://www.mirbase.org/download/)
 
 The original NCBI RefSeq data are retrieved from [UCSC genome table browser](https://genome.ucsc.edu/cgi-bin/hgTables)
 
-All the data cleaning is carried out with shell and python.
+
 
 
 ### Data cleaning is done with python file. Here I use OOP to import a series of classes and methods:
