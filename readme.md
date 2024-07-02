@@ -10,7 +10,7 @@ This script is written by Tyron Chang , the programming languages and tools used
 ### The pipeline is shown below:
 ![Model](./pipeline.png)
 
-### Source of the data
+### Source of the data:
 
 miR loci data are retrieved from [miRbase](https://www.mirbase.org/download/)
 
