@@ -8,6 +8,14 @@
 awk -F'\t' 'BEGIN{OFS="\t"} $1 ~ /^#/ {next} {gsub(";", "\t", $9); print $1, $3, $4, $5, $7, $9}' hsa.gff > hsa.tsv
 #================================================
 
+#Order of the shell scripts to run:
+
+#1.exonic miR shell script
+#2.nonoverlap miR script
+#3.intronic miR script
+
+
+
 #SECOND,convert tsv files into bed files
 #This command convert tsv files into bed file
 #files without microRNA
