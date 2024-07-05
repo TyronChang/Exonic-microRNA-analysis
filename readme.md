@@ -31,6 +31,17 @@ Mapping of the coordinates of miRNAs was done with Bedtools with additional shel
 * **`Mouse_miR_analysis.ipynb`**-> this file is miR analysis in mouse.
 
 
+**Shell scripts**:
+
+*Human*
+1. map all exonic miRs=> **`bedtools_human_exonic_miR.sh`**
+2. map all intronic miRs=> **`bedtools_human_intronic_miR.sh`**
+3. map all intronic and no host gene miRs=> **`bedtools_human_nonoverlap_miR.sh`**
+4. move all csv files into a new csv folder=> **`human_csv.sh`**
+
+
+
+
 
 **Bed files**:
 
