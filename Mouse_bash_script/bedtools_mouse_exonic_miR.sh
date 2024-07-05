@@ -4,7 +4,7 @@
 #This shell script will overlap all exonic miRs that are completely contained within exons 
 #==================================================
 #convert gff file from miRbase into tsv file first 
-awk -F'\t' 'BEGIN{OFS="\t"} $1 ~ /^#/ {next} {gsub(";", "\t", $9); print $1, $3, $4, $5, $7, $9}' mmu.gff > mmu.tsv
+awk -F'\t' 'BEGIN{OFS="\t"} $1 ~ /^#/ {next} {gsub(";", "\t", $9); print $1, $3, $4, $5, $7, $9}' mmu.gff3 > mmu.tsv
 
 #================================================
 #This command convert tsv fileis into bed file
@@ -28,3 +28,10 @@ bedtools intersect -a mouse_all_genes_no_miR_df_NCBI.bed  -b mmu.bed -s -wa -wb 
 # this command convert final bed  fileis into tsv file
 awk -F'\t' '{OFS="\t"; print $0}' mouse_exonic_miR_NCBI.bed>mouse_exonic_miR_NCBI.tsv
 
+###LASTLY, move all tsv, bed, and gff files into their own folders.
+ 
+out_dir=$(cd .. && pwd)
+ 
+mv *.tsv ${out_dir}/Mouse_tsv_file
+mv *.bed ${out_dir}/Mouse_bed_file
+mv hsa.gff3 ${out_dir}/Mouse_miRbase_file
