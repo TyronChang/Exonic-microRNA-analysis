@@ -34,3 +34,10 @@ Human_bed_file/human_exonic_miR_opposite_NCBI.bed filter=lfs diff=lfs merge=lfs 
 Human_bed_file/human_nonexonicmiR_NCBI.bed filter=lfs diff=lfs merge=lfs -text
 Human_tsv_file/hsa_finalized.tsv filter=lfs diff=lfs merge=lfs -text
 Human_tsv_file/human_exonic_miR_opposite_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
+Human_bed_file/human_intronic_miR_NCBI.bed filter=lfs diff=lfs merge=lfs -text
+Human_bed_file/human_all_genes_no_miR_df_TX_loc_NCBI.bed filter=lfs diff=lfs merge=lfs -text
+Human_bed_file/human_intronic_opposite_miR_NCBI.bed filter=lfs diff=lfs merge=lfs -text
+Human_bed_file/human_miR_no_hostmRNA_NCBI.bed filter=lfs diff=lfs merge=lfs -text
+Human_tsv_file/human_miR_no_hostmRNA_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
+Human_tsv_file/human_intronic_miR_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
+Human_tsv_file/human_intronic_opposite_miR_NCBI.tsv filter=lfs diff=lfs merge=lfs -text
