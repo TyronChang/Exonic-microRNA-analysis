@@ -47,7 +47,7 @@ Mapping of the coordinates of miRNAs was done with Bedtools with additional shel
 
 *Human*
 1. all exonic miRs=> **`human_exonic_miR_NCBI.bed`**
-2. all intronic and no host genes miRs=> **`human_nonexonic_NCBI.bed`**
+2. all intronic and no host genes miRs=> **`human_nonexonicmiR_NCBI.bed`**
 3. all intronic miRs=> **`human_intronic_miR_NCBI.bed`**
 4. all no host genes miRs=> **`human_miR_no_hostmRNA_NCBI.bed`**
 
