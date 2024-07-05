@@ -5,7 +5,7 @@
 #==================================================
 
 #FIRST, convert gff file from miRbase into tsv file first 
-awk -F'\t' 'BEGIN{OFS="\t"} $1 ~ /^#/ {next} {gsub(";", "\t", $9); print $1, $3, $4, $5, $7, $9}' hsa.gff > hsa.tsv
+awk -F'\t' 'BEGIN{OFS="\t"} $1 ~ /^#/ {next} {gsub(";", "\t", $9); print $1, $3, $4, $5, $7, $9}' hsa.gff3 > hsa.tsv
 #================================================
 
 #Order of the shell scripts to run:
@@ -42,10 +42,9 @@ bedtools intersect -a human_all_genes_no_miR_df_NCBI.bed  -b hsa.bed -s -wa -wb 
 awk -F'\t' '{OFS="\t"; print $0}' human_exonic_miR_NCBI.bed>human_exonic_miR_NCBI.tsv
 
 ###LASTLY, move all tsv, bed, and gff files into their own folders.
-mkdir Human_tsv_file  
-mkdir Human_bed_file 
-mkdir Human_miRbase_file 
 
-mv *.tsv Human_tsv_file 
-mv *.bed Human_bed_file 
-mv *.gff Human_miRbase_file 
+out_dir=$(cd .. && pwd)
+
+mv *.tsv ${out_dir}/Human_tsv_file 
+mv *.bed ${out_dir}/Human_bed_file 
+mv hsa.gff3 ${out_dir}/Human_miRbase_file 
