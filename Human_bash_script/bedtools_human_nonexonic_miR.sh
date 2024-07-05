@@ -33,6 +33,6 @@ awk -F'\t' '{OFS="\t"; print $0}' human_exonic_miR_opposite_NCBI.bed>human_exoni
  
 out_dir=$(cd .. && pwd)
 
-mv human_nonexonicmiR_NCBI.tsv ${out_dir}/Human_tesv_file
+mv human_nonexonicmiR_NCBI.tsv ${out_dir}/Human_tsv_file
 mv human_exonic_miR_opposite_NCBI.tsv ${out_dir}/Human_tsv_file
   
