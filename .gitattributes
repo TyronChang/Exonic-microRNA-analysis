@@ -30,3 +30,7 @@ Human_miRbase_file/hsa.gff3 filter=lfs diff=lfs merge=lfs -text
 Human_bed_file/human_exonic_miR_NCBI.bed filter=lfs diff=lfs merge=lfs -text
 Human_bed_file/hsa.bed filter=lfs diff=lfs merge=lfs -text
 Human_bed_file/human_all_genes_no_miR_df_NCBI.bed filter=lfs diff=lfs merge=lfs -text
+Human_bed_file/human_exonic_miR_opposite_NCBI.bed filter=lfs diff=lfs merge=lfs -text
+Human_bed_file/human_nonexonicmiR_NCBI.bed filter=lfs diff=lfs merge=lfs -text
+Human_tsv_file/hsa_finalized.tsv filter=lfs diff=lfs merge=lfs -text
+Human_tsv_file/human_exonic_miR_opposite_NCBI.tsv filter=lfs diff=lfs merge=lfs -text

@@ -25,6 +25,8 @@ awk -F'\t' '{OFS="\t"; print $1, $2, $3, $4, $5, $6, $7, $8}' human_all_genes_no
 
 #files with microRNA and convert it into bed file
 awk -F'\t' '{OFS="\t"; print $1, $3, $4, $2, $8, $5, $7}' hsa.tsv > hsa.bed ####This data is from miRbase
+#### This step is to regoranize columns in hsa.tsv file for python to read 
+awk -F'\t' '{OFS="\t"; print $1, $3, $4, $2, $8, $5, $7}' hsa.tsv > hsa_finalized.tsv
 
 ####alternatively, you can also use a different miR data derived from NCBI refseq
 #awk -F'\t' '{OFS="\t"; print $1, $2, $3, $4, $5, $6, $7, $8}' df_humanmiR_NCBI.tsv > df_human_miR_NCBI.bed
