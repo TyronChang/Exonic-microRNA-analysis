@@ -36,7 +36,7 @@ Mapping of the coordinates of miRNAs was done with Bedtools with additional shel
 *Human*
 1. map all exonic miRs=> **`bedtools_human_exonic_miR.sh`**
 2. map all intronic miRs=> **`bedtools_human_intronic_miR.sh`**
-3. map all intronic and no host gene miRs=> **`bedtools_human_nonoverlap_miR.sh`**
+3. map all intronic and no host gene miRs=> **`bedtools_human_nonexonic_miR.sh`**
 4. move all csv files into a new csv folder=> **`human_csv.sh`**
 
 
@@ -47,7 +47,7 @@ Mapping of the coordinates of miRNAs was done with Bedtools with additional shel
 
 *Human*
 1. all exonic miRs=> **`human_exonic_miR_NCBI.bed`**
-2. all intronic and no host genes miRs=> **`human_nonoverlapmiR_NCBI.bed`**
+2. all intronic and no host genes miRs=> **`human_nonexonic_NCBI.bed`**
 3. all intronic miRs=> **`human_intronic_miR_NCBI.bed`**
 4. all no host genes miRs=> **`human_miR_no_hostmRNA_NCBI.bed`**
 
