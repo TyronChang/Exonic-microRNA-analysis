@@ -20,7 +20,7 @@ awk -F'\t' 'BEGIN{OFS="\t"} $1 ~ /^#/ {next} {gsub(";", "\t", $9); print $1, $3,
 #This command convert tsv files into bed file
 #files without microRNA
 
-awk -F'\t' '{OFS="\t"; print $1, $2, $3, $4, $5, $6, $7, $8}' human_all_genes_no_miR_df_NCBI.tsv > human_all_genes_no_miR_df_NCBI.bed 
+awk -F'\t' '{OFS="\t"; print $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11}' human_all_genes_no_miR_df_NCBI.tsv > human_all_genes_no_miR_df_NCBI.bed 
 
 
 #files with microRNA and convert it into bed file
