@@ -40,7 +40,7 @@ awk -F'\t' '{OFS="\t"; print $1, $3, $4, $2, $8, $5, $7}' hsa.tsv > hsa_finalize
 bedtools intersect -a human_all_genes_no_miR_df_NCBI.bed  -b hsa.bed -s -wa -wb -F 1 >human_exonic_miR_NCBI.bed 
 
 ###FOURTH, convert the file bed file into a tsv file.
-# this command convert final bed  fileis into tsv file
+# this command convert final bed  files into tsv file
 awk -F'\t' '{OFS="\t"; print $0}' human_exonic_miR_NCBI.bed>human_exonic_miR_NCBI.tsv
 
 ###LASTLY, move all tsv, bed, and gff files into their own folders.
