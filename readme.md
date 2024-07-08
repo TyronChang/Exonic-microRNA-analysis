@@ -51,4 +51,14 @@ Mapping of the coordinates of miRNAs was done with Bedtools with additional shel
 3. all intronic miRs=> **`human_intronic_miR_NCBI.bed`**
 4. all no host genes miRs=> **`human_miR_no_hostmRNA_NCBI.bed`**
 
+**tsv files**:
+
+Any files that contains **` _unique`** means the isoforms of host genes of miRNAs are dropped
+
+*Human*
+1. all exonic miRs=> **`human_exonic_miR_NCBI.tsv`**
+2. all intronic and no host genes miRs=> **`human_nonexonicmiR_NCBI.tsv`**
+3. all intronic miRs=> **`human_intronic_miR_NCBI.tsv`**
+4. all no host genes miRs=> **`human_miR_no_hostmRNA_NCBI.tsv`**
+
 
