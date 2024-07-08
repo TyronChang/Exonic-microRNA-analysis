@@ -53,7 +53,7 @@ Mapping of the coordinates of miRNAs was done with Bedtools with additional shel
 
 **tsv files**:
 
-Any files that contains **` _unique`** means the isoforms of host genes of miRNAs are dropped
+Any files that contain **` _unique`** means the isoforms of host genes of miRNAs are dropped
 
 *Human*
 1. all exonic miRs=> **`human_exonic_miR_NCBI.tsv`**
