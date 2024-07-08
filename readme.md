@@ -26,11 +26,11 @@ The original NCBI RefSeq data are retrieved from [UCSC genome table browser](htt
 
 There is a lot of files so if you just want to see the final output please just go to the excel file folder. Here are the files you will be interested:
 
-## **all microRNAs:**
+### **all microRNAs:**
 
 * **`Human_miR_type_finalized_df_unique.xlsx`** will tell you if they are exonic, intronic, no host genes, etc.
 
-## **exonic microRNA:**
+### **exonic microRNA:**
 
 * **`human_exonic_miR(gene_type)_NCBI_unique.xlsx`** has more information it will tell you:
 1. if they are protein-coding or non-coding genes.
@@ -49,9 +49,9 @@ There is a lot of files so if you just want to see the final output please just 
 2. The length of mature host mRNAs.
 
 
-## **intronic microRNA:**
+### **intronic microRNA:**
 
-## **exonic microRNA:**
+### **exonic microRNA:**
 
 -----------------------------------------------------------------------------------------------
 
