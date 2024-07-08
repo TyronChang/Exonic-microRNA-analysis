@@ -33,10 +33,10 @@ There is a lot of files so if you just want to see the final output please just 
 ### **exonic microRNA:**
 
 * **`human_exonic_miR(gene_type)_NCBI_unique.xlsx`** has more information it will tell you:
-1. if they are protein-coding or non-coding genes.
-2. numbers of exons for each host genes.
-3. The length of mRNAs for each host genes.
-4. Their genetic coordinates.
+    1. if they are protein-coding or non-coding genes.
+    2. numbers of exons for each host genes.
+    3. The length of mRNAs for each host genes.
+    4. Their genetic coordinates.
 
 * **`human_exonic_miR_list(all_host_genes)_NCBI_no_loc.xlsx`** is a clean version of exonic miRNAs file without coordinates and it will tell you if they are protein-coding or non-coding genes.
 
@@ -44,8 +44,8 @@ There is a lot of files so if you just want to see the final output please just 
 
 * **`human_exonic_miR_list(protein_coding_host_genes)_NCBI_unique.xlsx`** is a clean version of exonic miRNAs resding in protein-coding genes. The file does not have genetic coordinates and it will tell you:
 
-1. if exonic miRNAs lives in 5'UTR, 3'UTR, or CDS.
-2. The length of mature host mRNAs.
+    1. if exonic miRNAs lives in 5'UTR, 3'UTR, or CDS.
+    2. The length of mature host mRNAs.
 
 
 ### **intronic microRNA:**
