@@ -41,6 +41,13 @@ Mapping of the coordinates of miRNAs was done with Bedtools with additional shel
 
 
 
+**gff3 files**:
+
+*Human*
+all human miRs with their genetic coordinates=> **`hsa.gff3`**
+
+*Mouse*
+all mouse miRs with their genetic coordinates=> **`mmu.gff3`**
 
 
 **Bed files**:
