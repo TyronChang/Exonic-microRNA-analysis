@@ -49,7 +49,7 @@ There is a lot of files so if you just want to see the final output please just 
     1. if exonic miRNAs lives in 5'UTR, 3'UTR, or CDS.
     2. The length of mature host mRNAs.
 
-![Mouse](https://img.shields.io/badge/Mouse-red)
+![Mouse](https://img.shields.io/badge/Mouse-blue)
 
 ### **intronic microRNA:**
 
