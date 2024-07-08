@@ -28,13 +28,9 @@ There is a lot of files so if you just want to see the final output please just 
 
 ## **all microRNAs:**
 
-this file will tell you if they are exonic, intronic, no host genes, etc.
-
-* **`Human_miR_type_finalized_df_unique.xlsx`**
+* **`Human_miR_type_finalized_df_unique.xlsx`** will tell you if they are exonic, intronic, no host genes, etc.
 
 ## **exonic microRNA:**
-
-
 
 * **`human_exonic_miR(gene_type)_NCBI_unique.xlsx`** has more information it will tell you:
 1. if they are protein-coding or non-coding genes.
