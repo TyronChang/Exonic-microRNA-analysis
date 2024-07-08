@@ -28,7 +28,7 @@ There is a lot of files so if you just want to see the final output please just 
 
 ### **all microRNAs:**
 
-<span style="color: red;">## Human </span>
+<span style="color: red;"> Human </span>
 
 * **`Human_miR_type_finalized_df_unique.xlsx`** will tell you if these miRNAs are exonic, intronic, no host genes, etc.
 
