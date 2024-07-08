@@ -28,7 +28,7 @@ There is a lot of files so if you just want to see the final output please just 
 
 ### **all microRNAs:**
 
-<div style="color: red;">Human</div>
+![Human](https://img.shields.io/badge/Human-red)
 
 * **`Human_miR_type_finalized_df_unique.xlsx`** will tell you if these miRNAs are exonic, intronic, no host genes, etc.
 
@@ -48,8 +48,8 @@ There is a lot of files so if you just want to see the final output please just 
 
     1. if exonic miRNAs lives in 5'UTR, 3'UTR, or CDS.
     2. The length of mature host mRNAs.
-This text is red.
-## *`Mouse`*
+
+![Mouse](https://img.shields.io/badge/Human-red)
 
 ### **intronic microRNA:**
 
