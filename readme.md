@@ -24,6 +24,35 @@ The original NCBI RefSeq data are retrieved from [UCSC genome table browser](htt
 ### More information about the following files:
 Mapping of the coordinates of miRNAs was done with Bedtools with additional shell scripts. Data cleaning is done with python file. Here I use OOP to import a series of classes and methods. Subsequent characterization of exon-derived miRNAs (GO analysis, heatmap, etc) was carried out with the metadata generated from this pipeline
 
+
+There is a lot of files so if you just want to see the final output please just go to the excel file folder. Here are the files you will be interested:
+
+**all microRNAs**
+this file will tell you if they are exonic, intronic, no host genes, etc.
+**`Human_miR_type_finalized_df_unique.xlsx`**
+
+**exonic microRNA**
+**`human_exonic_miR(gene_type)_NCBI_unique.xlsx`**
+This file has more information it will tell you:
+1. if they are protein-coding or non-coding genes.
+2. numbers of exons for each host genes.
+3. The length of mRNAs for each host genes
+
+**`human_exonic_miR_list(all_host_genes)_NCBI_no_loc.xlsx`**
+This file is a clean version of exonic miRNAs file without coordinates and it will tell you if they are protein-coding or non-coding genes.
+
+**`human_exonic_miR_list(protein_coding_host_genes)_NCBI_unique.xlsx`**
+This file is a clean version of exonic miRNAs resding in protein-coding genes. The file does not have genetic coordinates and it will tell you:
+
+1. if exonic miRNAs lives in 5'UTR, 3'UTR, or CDS.
+2. The length of mature host mRNAs.
+
+
+**intronic microRNA**
+**exonic microRNA**
+
+
+
 **Python files**:
 
 *  **`Data.ipynb`** ->this file is used for data cleaning, and it contains a series of methods in a class.
