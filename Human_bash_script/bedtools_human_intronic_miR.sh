@@ -3,6 +3,7 @@
 #change tsv file in to bed file
 #human_all_genes_no_miR_df_TX_loc_NCBI.tsv is a file with transcription start and end coordinates instead of exon coordinates
 # human_nonexonicmiR_NCBI.bed contains all miRNAs that are either intronic or nonhost genes miRNAs.
+
 out_dir=$(cd .. && pwd)
 cd ../Human_tsv_file
 awk -F '\t' '{print $0}' human_all_genes_no_miR_df_TX_loc_NCBI.tsv> human_all_genes_no_miR_df_TX_loc_NCBI.bed 
