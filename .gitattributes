@@ -93,3 +93,5 @@ Mouse_excel_file/mouse_exonic_miR_list(all_host_genes)_NCBI_no_loc.xlsx filter=l
 Mouse_excel_file/mouse_exonic_miR_list(protein_coding_host_genes)_NCBI.xlsx filter=lfs diff=lfs merge=lfs -text
 Mouse_excel_file/mouse_exonic_miR_list(protein_coding_host_genes)_NCBI_unique.xlsx filter=lfs diff=lfs merge=lfs -text
 Mouse_excel_file/mouse_exonic_miR(gene_type)_NCBI_unique.xlsx filter=lfs diff=lfs merge=lfs -text
+Human_csv_file/human_intronic_miR(gene_type)_NCBI_unique.csv filter=lfs diff=lfs merge=lfs -text
+Human_excel_file/human_intronic_miR(gene_type)_NCBI_unique.xlsx filter=lfs diff=lfs merge=lfs -text
