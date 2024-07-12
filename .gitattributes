@@ -93,6 +93,7 @@ Mouse_excel_file/mouse_exonic_miR_list(all_host_genes)_NCBI_no_loc.xlsx filter=l
 Mouse_excel_file/mouse_exonic_miR_list(protein_coding_host_genes)_NCBI.xlsx filter=lfs diff=lfs merge=lfs -text
 Mouse_excel_file/mouse_exonic_miR_list(protein_coding_host_genes)_NCBI_unique.xlsx filter=lfs diff=lfs merge=lfs -text
 Mouse_excel_file/mouse_exonic_miR(gene_type)_NCBI_unique.xlsx filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
 Mouse_csv_file/mouse_intronic_miR_NCBI.csv filter=lfs diff=lfs merge=lfs -text
 Mouse_csv_file/mouse_miR_no_hostmRNA_NCBI_unique.csv filter=lfs diff=lfs merge=lfs -text
 Mouse_csv_file/Mouse_intronic_miR_df_unique.csv filter=lfs diff=lfs merge=lfs -text
@@ -112,3 +113,7 @@ Mouse_eps_file/Exon[[:space:]]counts[[:space:]]in[[:space:]]mouse[[:space:]]host
 Human_csv_file/human_intronic_miR(gene_type)_NCBI_unique.csv filter=lfs diff=lfs merge=lfs -text
 Human_excel_file/human_intronic_miR(gene_type)_NCBI_unique.xlsx filter=lfs diff=lfs merge=lfs -text
 Mouse_excel_file/mouse_intronic_miR(gene_type)_NCBI_unique.xlsx filter=lfs diff=lfs merge=lfs -text
+=======
+Human_csv_file/human_intronic_miR(gene_type)_NCBI_unique.csv filter=lfs diff=lfs merge=lfs -text
+Human_excel_file/human_intronic_miR(gene_type)_NCBI_unique.xlsx filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 43c628f628980701c8c763626155977f07e71190
