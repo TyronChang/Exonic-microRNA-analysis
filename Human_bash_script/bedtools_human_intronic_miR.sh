@@ -16,6 +16,10 @@ bedtools intersect -a human_all_genes_no_miR_df_TX_loc_NCBI.bed -b human_nonexon
 awk -F'\t' '{OFS="\t"; print $0}' human_intronic_miR_NCBI.bed>human_intronic_miR_NCBI.tsv
 
 
+bedtools intersect -a human_all_genes_no_miR_df_TX_loc_NCBI.bed -b human_nonexonicmiR_NCBI.bed -wa -wb >human_intronic_miR_intragenic_NCBI.bed
+awk -F'\t' '{OFS="\t"; print $0}' human_intronic_miR_intragenic_NCBI.bed>human_intronic_miR_intragenic_NCBI.tsv
+
+
 #this command will find the miRNAs without host  mRNAs
 bedtools intersect -a human_nonexonicmiR_NCBI.bed -b human_all_genes_no_miR_df_TX_loc_NCBI.bed -v >human_miR_no_hostmRNA_NCBI.bed
 

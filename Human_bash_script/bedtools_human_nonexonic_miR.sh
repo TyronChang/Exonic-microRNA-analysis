@@ -16,12 +16,14 @@ cd ../Human_bed_file
 bedtools intersect -a hsa.bed -b human_all_genes_no_miR_df_NCBI.bed -v >human_nonexonicmiR_NCBI.bed 
 
 #this command will find the ones opposite to the host mRNAs but still exonic miRNAs
-bedtools intersect -a human_all_genes_no_miR_df_NCBI.bed -b hsa.bed -S -wa -wb -F 1 >human_exonic_miR_opposite_NCBI.bed 
+bedtools intersect -a human_all_genes_no_miR_df_NCBI.bed -b hsa.bed -S -wa -wb >human_exonic_miR_opposite_NCBI.bed 
+bedtools intersect -a human_all_genes_no_miR_df_NCBI.bed -b hsa.bed -s -wa -wb >human_exonic_miR_intragenic_NCBI.bed 
 
 
 # this command convert final bed  files into tsv file
 awk -F'\t' '{OFS="\t"; print $0}' human_nonexonicmiR_NCBI.bed>human_nonexonicmiR_NCBI.tsv
 awk -F'\t' '{OFS="\t"; print $0}' human_exonic_miR_opposite_NCBI.bed>human_exonic_miR_opposite_NCBI.tsv
+awk -F'\t' '{OFS="\t"; print $0}' human_exonic_miR_intragenic_NCBI.bed>human_exonic_miR_intragenic_NCBI.tsv
 
 #awk -F'\t' '{OFS="\t"; print $9, $10, $11, $12, $13, $14,$15}' human_nonoverlapmiR_NCBI_opposite_strand_metadata.bed>human_nonoverlapmiR_NCBI_opposite_strand_metadata.tsv
 
@@ -35,4 +37,4 @@ out_dir=$(cd .. && pwd)
 
 mv human_nonexonicmiR_NCBI.tsv ${out_dir}/Human_tsv_file
 mv human_exonic_miR_opposite_NCBI.tsv ${out_dir}/Human_tsv_file
-  
+mv human_exonic_miR_intragenic_NCBI.tsv ${out_dir}/Human_tsv_file  
