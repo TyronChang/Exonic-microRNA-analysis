@@ -20,6 +20,12 @@ cd ../Mouse_bed_file
 bedtools intersect -a mouse_all_genes_no_miR_df_TX_loc_NCBI.bed -b mouse_nonexonicmiR_NCBI.bed -s -wa -wb >mouse_intronic_miR_NCBI.bed
 awk -F'\t' '{OFS="\t"; print $0}' mouse_intronic_miR_NCBI.bed>mouse_intronic_miR_NCBI.tsv
 
+
+bedtools intersect -a mouse_all_genes_no_miR_df_TX_loc_NCBI.bed -b mouse_nonexonicmiR_NCBI.bed -wa -wb >mouse_intronic_miR_intragenic_NCBI.bed
+awk -F'\t' '{OFS="\t"; print $0}' mouse_intronic_miR_intragenic_NCBI.bed>mouse_intronic_miR_intragenic_NCBI.tsv
+
+
+
 #this command will find the miRNAs without host mRNAs
 bedtools intersect -a mouse_nonexonicmiR_NCBI.bed -b mouse_all_genes_no_miR_df_TX_loc_NCBI.bed -v >mouse_miR_no_hostmRNA_NCBI.bed
 

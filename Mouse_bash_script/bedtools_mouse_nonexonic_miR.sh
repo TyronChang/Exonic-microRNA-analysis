@@ -16,12 +16,16 @@ cd ../Mouse_bed_file
 
 bedtools intersect -a mmu.bed -b mouse_all_genes_no_miR_df_NCBI.bed -v >mouse_nonexonicmiR_NCBI.bed 
 
+bedtools intersect -a mouse_all_genes_no_miR_df_NCBI.bed -b mmu.bed -s -wa -wb >mouse_exonic_miR_intragenic_NCBI.bed
+
 #this command will find the ones opposite to the host mRNAs
 bedtools intersect -a mouse_all_genes_no_miR_df_NCBI.bed -b mmu.bed -S -wa -wb -F 1 >mouse_exonic_miR_opposite_NCBI.bed 
 
 # this command convert final bed  files into tsv file
 awk -F'\t' '{OFS="\t"; print $0}' mouse_nonexonicmiR_NCBI.bed>mouse_nonexonicmiR_NCBI.tsv
-awk -F'\t' '{OFS="\t"; print $9, $10, $11, $12, $13, $14,$15}' mouse_exonic_miR_opposite_NCBI.bed>mouse_exonic_miR_opposite_NCBI.tsv
+awk -F'\t' '{OFS="\t"; print $0}' mouse_exonic_miR_opposite_NCBI.bed>mouse_exonic_miR_opposite_NCBI.tsv
+
+awk -F'\t' '{OFS="\t"; print $0}' mouse_exonic_miR_intragenic_NCBI.bed>mouse_exonic_miR_intragenic_NCBI.tsv
 
 #Append the opposite stranded microRNAs onto the original files
 #awk -F'\t' '{OFS="\t"; print $9, $10, $11, $12, $13, $14, $15}' mouse_nonoverlapmiR_NCBI_opposite_strand_metadata.tsv>>mouse_nonoverlapmiR_NCBI.tsv
@@ -33,3 +37,4 @@ out_dir=$(cd .. && pwd)
  
 mv mouse_nonexonicmiR_NCBI.tsv ${out_dir}/Mouse_tsv_file
 mv mouse_exonic_miR_opposite_NCBI.tsv ${out_dir}/Mouse_tsv_file
+mv mouse_exonic_miR_intragenic_NCBI.tsv ${out_dir}/Mouse_tsv_file
