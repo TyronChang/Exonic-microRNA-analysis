@@ -12,3 +12,12 @@ awk 'BEGIN { OFS="," } /^>/ {if (NR > 1) print name, id, seq; name=$1; id=$2; se
 
 awk 'BEGIN {FS=" "} /^>/ {if (seq) print id, mi, desc, seq; seq=""; id=$1; mi=$2; desc=$3","$4","$5} !/^>/ {seq=seq$0} END {print id, mi, desc, seq}' mature.fa | tr -d '>' | tr ' ' ',' > mature_miR.csv 
 
+grep -c '^>' Human_exonic_premiR_sequence.fasta 
+
+this will count the number of > in a fasta file
+
+
+
+this will convert csv file into fasta file
+awk -F, 'NR > 1 {print ">" $4 "\n" $7}' input.csv > output.fasta
+
