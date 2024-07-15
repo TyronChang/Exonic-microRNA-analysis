@@ -19,7 +19,8 @@ bedtools intersect -a mmu.bed -b mouse_all_genes_no_miR_df_NCBI.bed -v >mouse_no
 bedtools intersect -a mouse_all_genes_no_miR_df_NCBI.bed -b mmu.bed -s -wa -wb >mouse_exonic_miR_intragenic_NCBI.bed
 
 #this command will find the ones opposite to the host mRNAs
-bedtools intersect -a mouse_all_genes_no_miR_df_NCBI.bed -b mmu.bed -S -wa -wb -F 1 >mouse_exonic_miR_opposite_NCBI.bed 
+bedtools intersect -a mouse_all_genes_no_miR_df_NCBI.bed -b mmu.bed -S -wa -wb >mouse_exonic_miR_opposite_NCBI.bed 
+
 
 # this command convert final bed  files into tsv file
 awk -F'\t' '{OFS="\t"; print $0}' mouse_nonexonicmiR_NCBI.bed>mouse_nonexonicmiR_NCBI.tsv
