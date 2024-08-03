@@ -1,0 +1,100 @@
+© 2000-2024 QIAGEN. All rights reserved.
+
+Symbol	Entrez Gene Name	RefSeq/Gene Symbol - human (HUGO / HGNC / Entrez Gene)	Location	Type(s)	Biomarker Application(s)	Drug(s)	Entrez Gene ID for Human	Entrez Gene ID for Mouse	Entrez Gene ID for Rat
+ADAMTSL4	ADAMTS like 4	XM_047422823.1	Extracellular Space	other			54507	229595	310670
+ADGRB2	adhesion G protein-coupled receptor B2	XM_047426188.1	Plasma Membrane	G-protein coupled receptor			576	230775	313058
+AEN	apoptosis enhancing nuclease	XM_017022489.2	Nucleus	enzyme			64782	68048	361594
+ANKRD54	ankyrin repeat domain 54	XM_011529877.3	Nucleus	transcription regulator			129138	223690	362957
+AOPEP	aminopeptidase O (putative)	XM_047423978.1	Cytoplasm	peptidase			84909	72061	290963
+ARIH1	ariadne RBR E3 ubiquitin protein ligase 1	NM_005744.5	Cytoplasm	enzyme			25820	23806	300756
+ATF5	activating transcription factor 5	NM_012068.6	Nucleus	transcription regulator			22809	107503	282840
+B2M	beta-2-microglobulin	NM_004048.4	Plasma Membrane	transmembrane receptor	disease progression,efficacy,safety,unspecified application	4'-iodo-4'-deoxydoxorubicin	567	12010	24223
+C15orf48	chromosome 15 open reading frame 48	NM_197955.3	Nucleus	other			84419	433470	302884
+CACNG8	calcium voltage-gated channel auxiliary subunit gamma 8	NM_031895.6	Plasma Membrane	ion channel			59283	81905	140729
+CAPN15	calpain 15	XM_047434534.1	Other	peptidase			6650	50817	303000
+CBX5	chromobox 5	NM_012117.3	Nucleus	transcription regulator			23468	12419	300266
+CCDC186	coiled-coil domain containing 186	NM_018017.4	Cytoplasm	other			55088	213993	361773
+CCNYL1	cyclin Y like 1	NM_152523.3	Plasma Membrane	other			151195	227210	316452
+CDC37	cell division cycle 37, HSP90 cochaperone	NM_007065.4	Cytoplasm	other			11140	12539	114562
+CEP170B	centrosomal protein 170B	NM_015005.3	Other	other			283638	217882	500726
+CHPF2	chondroitin polymerizing factor 2	NM_001389653.1	Cytoplasm	enzyme			54480	100910	296733
+COP1	COP1 E3 ubiquitin ligase	XM_047427799.1	Cytoplasm	enzyme			64326	26374	360860
+DGCR8	DGCR8 microprocessor complex subunit	XM_047441419.1	Nucleus	enzyme			54487	94223	287954
+DOCK3	dedicator of cytokinesis 3	XM_047447599.1	Cytoplasm	other			1795	208869	315992
+EHD1	EH domain containing 1	NM_006795.4	Cytoplasm	other			10938	13660	293692
+FADS1	fatty acid desaturase 1	XM_011545022.3	Plasma Membrane	enzyme	unspecified application		3992	76267	84575
+FAM172A	family with sequence similarity 172 member A	XM_017009955.2	Cytoplasm	transcription regulator			83989	68675	294606
+FAM89A	family with sequence similarity 89 member A	NM_198552.3	Other	other			375061	69627	361441
+FSTL1	follistatin like 1	NM_007085.5	Extracellular Space	other			11167	14314	79210
+FUT8	fucosyltransferase 8	XM_047431180.1	Cytoplasm	enzyme			2530	53618	432392
+FXYD3	FXYD domain containing ion transport regulator 3	NM_001387354.1	Plasma Membrane	ion channel	diagnosis		5349	17178	116831
+FZD8	frizzled class receptor 8	NM_031866.3	Plasma Membrane	G-protein coupled receptor		vantictumab	8325	14370	364754
+GAN	gigaxonin	NM_001377486.1	Cytoplasm	other			8139	209239	307893
+GNAI3	G protein subunit alpha i3	NM_006496.4	Cytoplasm	enzyme			2773	14679	25643
+GPC1	glypican 1	XM_047443961.1	Plasma Membrane	transmembrane receptor			2817	14733	58920
+GPRC5A	G protein-coupled receptor class C group 5 member A	NM_003979.4	Plasma Membrane	G-protein coupled receptor			9052	232431	312790
+HAUS4	HAUS augmin like complex subunit 4	NM_001166269.2	Cytoplasm	other			54930	219072	305882
+HEATR6	HEAT repeat containing 6	NM_022070.5	Other	other			63897	217026	497972
+HOXD1	homeobox D1	NM_024501.3	Nucleus	transcription regulator			3231	15429	288151
+HS3ST3A1	heparan sulfate-glucosamine 3-sulfotransferase 3A1	XM_047437228.1	Cytoplasm	enzyme			9955	15478	363618
+HSP90B1	heat shock protein 90 beta family member 1	NM_003299.3	Cytoplasm	other		alvespimycin,cisplatin,retaspimycin	7184	22027	362862
+IGSF9B	immunoglobulin superfamily member 9B	NM_001277285.4	Plasma Membrane	other			22997	235086	315510
+IRAK3	interleukin 1 receptor associated kinase 3	NM_001142523.2	Cytoplasm	kinase			11213	73914	314870
+LOC124901780	uncharacterized LOC124901780	XM_047421163.1	Other	other			124901780	 	 
+LOC124902361	uncharacterized LOC124902361	XM_047426106.1	Other	other			124902361	 	 
+LOC124903407	mucin-2-like	XM_047432049.1	Other	other			124903407	 	 
+LOC124904228	uncharacterized LOC124904228	XM_047437906.1	Other	other			124904228	 	 
+LOC124904951	uncharacterized LOC124904951	XM_047440634.1	Other	other			124904951	 	 
+LOC124905135	collagen alpha-1(III) chain-like	XM_047441696.1	Other	other			124905135	 	 
+LYST	lysosomal trafficking regulator	XM_047443026.1	Cytoplasm	transporter			1130	17101	85419
+MARF1	meiosis regulator and mRNA stability factor 1	XM_017023900.3	Cytoplasm	other			9665	223989	 
+MISP3	MISP family member 3	NM_001393577.1	Other	other			113230	 	 
+MXD4	MAX dimerization protein 4	NM_006454.3	Nucleus	transcription regulator			10608	17122	 
+NDRG2	NDRG family member 2	NM_001354565.2	Cytoplasm	other			57447	29811	171114
+NPC2	NPC intracellular cholesterol transporter 2	NM_001363688.1	Extracellular Space	transporter			10577	67963	286898
+NSRP1	nuclear speckle splicing regulatory protein 1	XM_047436916.1	Nucleus	other			84081	237859	303346
+OBSL1	obscurin like cytoskeletal adaptor 1	XM_011510857.3	Cytoplasm	other			23363	 	363259
+PABPC1	poly(A) binding protein cytoplasmic 1	XM_005250861.4	Cytoplasm	translation regulator			26986	18458	171350
+PDCD4	programmed cell death 4	NM_001199492.2	Nucleus	other	prognosis		27250	18569	64031
+PINK1	PTEN induced kinase 1	NM_032409.3	Cytoplasm	kinase	diagnosis		65018	68943	298575
+PLCD3	phospholipase C delta 3	XM_024450554.2	Cytoplasm	enzyme			113026	72469	287745
+PLCL2	phospholipase C like 2	XM_047447799.1	Cytoplasm	enzyme			23228	224860	301173
+PLEKHM1	pleckstrin homology and RUN domain containing M1	XM_047437188.1	Cytoplasm	other			9842	353047	303584
+POFUT1	protein O-fucosyltransferase 1	XM_047440079.1	Cytoplasm	enzyme			23509	140484	311551
+POR	cytochrome p450 oxidoreductase	NM_001382662.3	Cytoplasm	enzyme		carboplatin/doxorubicin,cisplatin/doxorubicin,cisplatin/doxorubicin/ifosfamide,cisplatin/doxorubicin/ifosfamide/methotrexate,cisplatin/doxorubicin/methotrexate,dacarbazine/doxorubicin,dacarbazine/doxorubicin/ifosfamide,daunorubicin,daunorubicin/tretinoin,doxorubicin,doxorubicin/ifosfamide,doxorubicin/streptozocin,doxorubicin/tretinoin,nitazoxanide,nitazoxanide/peginterferon alfa-2a/ribavirin	5447	18984	29441
+PTMA	prothymosin alpha	NM_002823.5	Nucleus	other			5757	 	 
+PURB	purine rich element binding protein B	NM_033224.5	Nucleus	transcription regulator			5814	19291	498407
+RAB11FIP4	RAB11 family interacting protein 4	NM_032932.6	Cytoplasm	other			84440	268451	303337
+RBBP8	RB binding protein 8, endonuclease	XM_005258325.4	Nucleus	enzyme			5932	225182	291787
+REXO1	RNA exonuclease 1 homolog	XM_011528144.2	Nucleus	transcription regulator			57455	66932	314630
+RGS6	regulator of G protein signaling 6	XM_017021833.3	Cytoplasm	enzyme			9628	50779	54295
+RPL28	ribosomal protein L28	NM_001136134.1	Cytoplasm	other			6158	19943	64638
+RPS5	ribosomal protein S5	NM_001009.4	Cytoplasm	other			6193	20103	25538
+RUBCN	rubicon autophagy regulator	XM_006713827.4	Cytoplasm	other			9711	100502698	303885
+RXRA	retinoid X receptor alpha	NM_001291920.2	Nucleus	ligand-dependent nuclear receptor		acitretin,alitretinoin,bexarotene,daunorubicin/tretinoin,doxorubicin/tretinoin,etretinate,idarubicin/tretinoin,theophylline/tretinoin/valproic acid,tretinoin	6256	20181	25271
+SBNO1	strawberry notch homolog 1	NM_001167856.3	Other	enzyme			55206	243272	304470
+SEMA3B	semaphorin 3B	NM_001290063.2	Extracellular Space	other			7869	20347	363142
+SLC25A15	solute carrier family 25 member 15	NM_014252.4	Cytoplasm	transporter			10166	18408	306574
+SLC26A6	solute carrier family 26 member 6	NM_001040454.1	Cytoplasm	transporter			65010	171429	301010
+SLC35B2	solute carrier family 35 member B2	NM_001286512.2	Cytoplasm	transporter			347734	73836	501103
+SON	SON DNA and RNA binding protein	NM_001291411.2	Nucleus	other			6651	20658	304092
+SOX6	SRY-box transcription factor 6	NM_001367873.1	Nucleus	transcription regulator			55553	20679	293165
+STIM1	stromal interaction molecule 1	NM_001382572.1	Plasma Membrane	ion channel			6786	20866	361618
+STS	steroid sulfatase	NM_001320752.2	Cytoplasm	enzyme		irosustat	412	 	24800
+TAOK1	TAO kinase 1	NM_020791.4	Cytoplasm	kinase			57551	216965	286993
+TATDN2	TatD DNase domain containing 2	NM_014760.4	Nucleus	other			9797	381801	500295
+TBC1D17	TBC1 domain family member 17	XM_047439444.1	Cytoplasm	other			79735	233204	292886
+TMCC3	transmembrane and coiled-coil domain family 3	NM_020698.4	Cytoplasm	other			57458	319880	314751
+TMEM164	transmembrane protein 164	XM_017029894.3	Other	other			84187	209497	367763
+TMEM181	transmembrane protein 181	XM_047419182.1	Other	other			57583	77106	502228
+TMEM94	transmembrane protein 94	XM_047437165.1	Extracellular Space	other			9772	71947	 
+TNFRSF13C	TNF receptor superfamily member 13C	NM_052945.4	Plasma Membrane	transmembrane receptor		ESG206,ianalumab	115650	72049	500910
+TRIM25	tripartite motif containing 25	NM_005082.5	Cytoplasm	enzyme			7706	217069	494338
+UCK2	uridine-cytidine kinase 2	NM_012474.5	Cytoplasm	kinase	unspecified application		7371	80914	304944
+UCKL1	uridine-cytidine kinase 1 like 1	XM_017027894.3	Cytoplasm	kinase			54963	68556	499956
+UNC119B	unc-119 lipid binding chaperone B	NM_001080533.3	Cytoplasm	other			84747	106840	288702
+VMP1	vacuole membrane protein 1	NM_001329402.2	Cytoplasm	transporter			81671	75909	192129
+ZBTB20	zinc finger and BTB domain containing 20	NM_001164347.2	Nucleus	transcription regulator			26137	56490	288105
+ZC3HAV1	zinc finger CCCH-type containing, antiviral 1	NM_001363491.2	Plasma Membrane	other			56829	78781	252832
+ZFAT	zinc finger and AT-hook domain containing	XM_047422062.1	Nucleus	transcription regulator			57623	380993	362925
+ZFTRAF1	zinc finger TRAF-type containing 1	NM_001330618.2	Nucleus	other			50626	54151	100362155

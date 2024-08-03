@@ -1,0 +1,79 @@
+© 2000-2024 QIAGEN. All rights reserved.
+
+Symbol	Entrez Gene Name	RefSeq/Gene Symbol - mouse (Entrez Gene)	Location	Type(s)	Biomarker Application(s)	Drug(s)	Entrez Gene ID for Human	Entrez Gene ID for Mouse	Entrez Gene ID for Rat
+ACHE	acetylcholinesterase (Cartwright blood group)	Ache	Plasma Membrane	enzyme		2,3 butanedione monoxime,acetylcholinesterase inhibitor,ambenonium,atropine/edrophonium,atropine/neostigmine,atropine/pralidoxime,budesonide/formoterol/glycopyrrolate,BW 284 C 51,caracemide,corticosteroid/glycopyrrolate,demecarium,donepezil,donepezil/mefloquine,donepezil/memantine,donepezil/solifenacin,echothiophate,edrophonium,formoterol/glycopyrrolate,galanthamine,gallamine triethiodide,glycopyrrolate,glycopyrrolate/indacaterol,glycopyrrolate/indacaterol/mometasone furoate,huperzine A,isoflurophate,ladostigil,neostigmine,physostigmine,pralidoxime,pyridostigmine,quinidine,rivastigmine,tacrine,terestigmine,thiamine,ZT-1	43	11423	83817
+AKT1S1	AKT1 substrate 1	NM_001290694.1	Cytoplasm	other	efficacy		84335	67605	292887
+ALG10	ALG10 alpha-1,2-glucosyltransferase	NM_001033441.3	Cytoplasm	enzyme			84920	380959	245960
+AOPEP	aminopeptidase O (putative)	NM_001289926.1	Cytoplasm	peptidase			84909	72061	290963
+ARGLU1	arginine and glutamate rich 1	NM_176849.3	Other	other			55082	234023	290912
+ARMCX5	armadillo repeat containing X-linked 5	NM_001009575.5	Other	other			64860	494468	102552920
+C15orf48	chromosome 15 open reading frame 48	NM_001004174.2	Nucleus	other			84419	433470	302884
+CACNG8	calcium voltage-gated channel auxiliary subunit gamma 8	NM_133190.3	Plasma Membrane	ion channel			59283	81905	140729
+CDK12	cyclin dependent kinase 12	XM_006534108.4	Nucleus	kinase		Cdk12-IN-3,SR4835,THZ531	51755	69131	192350
+CERCAM	cerebral endothelial cell adhesion molecule	XM_006498476.4	Other	other			51148	99151	296616
+CHPF2	chondroitin polymerizing factor 2	NM_133913.2	Cytoplasm	enzyme			54480	100910	296733
+CLCN7	chloride voltage-gated channel 7	NM_011930.4	Plasma Membrane	ion channel			1186	26373	29233
+CSF2RB	colony stimulating factor 2 receptor subunit beta	NM_001358854.1	Plasma Membrane	transmembrane receptor		EPO/sargramostim,rituximab/sargramostim,sargramostim	1439	12983|12984	171081
+CSTF2	cleavage stimulation factor subunit 2	NM_001290399.1	Nucleus	other			1478	108062	683927
+CTDSP2	CTD small phosphatase 2	NM_001113470.1	Nucleus	phosphatase			10106	52468	 
+Cyp2d9 (includes others)	cytochrome P450, family 2, subfamily d, polypeptide 9	NM_001104531.1	Cytoplasm	enzyme			 	13101|13105|223706|380997|545123	 
+DALRD3	DALR anticodon binding domain containing 3	XM_006511793.2	Other	other			55152	67789	363146
+DDHD1	DDHD domain containing 1	NM_001284399.1	Extracellular Space	enzyme			80821	114874	305816
+DENND6B	DENN domain containing 6B	Dennd6b	Cytoplasm	other			414918	69440	362983
+DGCR8	DGCR8 microprocessor complex subunit	XM_030249355.1	Nucleus	enzyme			54487	94223	287954
+ELAVL2	ELAV like RNA binding protein 2	XM_030253236.1	Cytoplasm	other			1993	15569	286973
+ELOF1	elongation factor 1	NM_170777.4	Nucleus	other			84337	66126	691193
+EPC1	enhancer of polycomb homolog 1	NM_027497.3	Nucleus	transcription regulator			80314	13831	100362678
+Esrra	estrogen related receptor, alpha	XM_017318209.2	Nucleus	ligand-dependent nuclear receptor			 	26379	293701
+FAM210A	family with sequence similarity 210 member A	XM_006525524.4	Cytoplasm	other			125228	108654	307343
+FAM53C	family with sequence similarity 53 member C	NM_001357457.1	Other	other			51307	66306	685405
+Fnbp1l	formin binding protein 1-like	NM_001114665.2	Cytoplasm	other			 	214459	310839
+GAD2	glutamate decarboxylase 2	XM_011239023.3	Cytoplasm	enzyme		theophylline/tretinoin/valproic acid,valproic acid	2572	14417	24380
+GLCE	glucuronic acid epimerase	NM_033320.5	Cytoplasm	enzyme			26035	93683	363073
+Gm5134	predicted gene 5134	Gm5134	Other	other			 	333669	365549
+HDAC5	histone deacetylase 5	XM_030245587.1	Nucleus	transcription regulator		belinostat,pyroxamide,tributyrin	10014	15184	84580
+HIPK3	homeodomain interacting protein kinase 3	NM_010434.2	Nucleus	kinase			10114	15259	83617
+HSPB6	heat shock protein family B (small) member 6	NM_001364179.1	Cytoplasm	other			126393	243912	192245
+HUWE1	HECT, UBA and WWE domain containing E3 ubiquitin protein ligase 1	XM_006528943.3	Nucleus	transcription regulator	unspecified application		10075	59026	 
+IGF2BP1	insulin like growth factor 2 mRNA binding protein 1	NM_009951.4	Cytoplasm	translation regulator			10642	140486	303477
+KCTD12	potassium channel tetramerization domain containing 12	NM_177715.4	Plasma Membrane	ion channel			115207	239217	364458
+KLHDC7A	kelch domain containing 7A	NM_173427.2	Other	other			127707	242721	298590
+KLHL15	kelch like family member 15	XM_006527989.4	Nucleus	other			80311	236904	314111
+KLHL17	kelch like family member 17	NM_198305.2	Cytoplasm	other			339451	231003	246757
+LAMA5	laminin subunit alpha 5	Lama5	Extracellular Space	other	diagnosis		3911	16776	140433
+LCOR	ligand dependent nuclear receptor corepressor	NM_001370767.1	Nucleus	transcription regulator			84458	212391	 
+MCF2L	MCF.2 cell line derived transforming sequence like	NM_001371045.1	Cytoplasm	other			23263	17207	117020
+Misp3	MISP family member 3	NM_001291292.1	Other	other			 	70134	 
+MMGT1	membrane magnesium transporter 1	NM_146234.4	Cytoplasm	transporter			93380	236792	302864
+NRP1	neuropilin 1	XM_006530766.4	Plasma Membrane	transmembrane receptor	diagnosis,efficacy	vesencumab	8829	18186	246331
+NUP93	nucleoporin 93	XM_006531376.3	Nucleus	other			9688	71805	291874
+P2RX7	purinergic receptor P2X 7	NM_011027.4	Plasma Membrane	ion channel	diagnosis	coomassie brilliant blue G-250	5027	18439	 
+PDE12	phosphodiesterase 12	NM_178668.3	Cytoplasm	enzyme			201626	211948	306231
+PDE4DIP	phosphodiesterase 4D interacting protein	NM_001289701.1	Cytoplasm	enzyme	unspecified application		9659	83679	64183
+PPM1H	protein phosphatase, Mg2+/Mn2+ dependent 1H	Ppm1h	Nucleus	phosphatase			57460	319468	314897
+PPP1R10	protein phosphatase 1 regulatory subunit 10	XM_030249898.1	Nucleus	other			5514	52040	65045
+PRMT2	protein arginine methyltransferase 2	NM_001077638.2	Nucleus	enzyme			3275	15468	499420
+PSMB5	proteasome 20S subunit beta 5	NM_011186.1	Cytoplasm	peptidase		bortezomib,bortezomib/cladribine/rituximab,bortezomib/dexamethasone,bortezomib/dexamethasone/doxorubicin,bortezomib/dexamethasone/lenalidomide,bortezomib/dexamethasone/pomalidomide,bortezomib/dexamethasone/rituximab,bortezomib/dexamethasone/thalidomide,bortezomib/doxorubicin,bortezomib/fulvestrant,bortezomib/lenalidomide,bortezomib/paclitaxel,bortezomib/prednisone,bortezomib/rituximab,bortezomib/sorafenib,bortezomib/thalidomide,bortezomib/vorinostat,carfilzomib,carfilzomib/dexamethasone,carfilzomib/dexamethasone/lenalidomide,carfilzomib/dexamethasone/rituximab,dexamethasone/ixazomib/lenalidomide,dexamethasone/ixazomib/pomalidomide,dexamethasone/ixazomib/rituximab,ixazomib	5693	19173	29425
+RAB11FIP5	RAB11 family interacting protein 5	NM_001003955.2	Cytoplasm	other			26056	52055	312502
+RNF19A	ring finger protein 19A, RBR E3 ubiquitin protein ligase	NM_013923.2	Nucleus	enzyme			25897	30945	362900
+RNF213	ring finger protein 213	XM_030246242.1	Cytoplasm	enzyme			57674	672511	303735
+RPS21	ribosomal protein S21	NM_001355516.1	Cytoplasm	other			6227	66481	81775
+RPS6KA4	ribosomal protein S6 kinase A4	NM_019924.2	Cytoplasm	kinase		APIO-EE-07	8986	56613	361715
+RTL1	retrotransposon Gag like 1	XM_030246797.1	Other	other			388015	353326	 
+Scd2	stearoyl-Coenzyme A desaturase 2	NM_009128.2	Cytoplasm	enzyme			 	20250	83792
+SLC9A1	solute carrier family 9 member A1	XM_017320089.2	Plasma Membrane	ion channel		amiloride,amiloride/hydrochlorothiazide	6548	20544	24782
+SPTSSA	serine palmitoyltransferase small subunit A	NM_134054.2	Cytoplasm	enzyme			171546	104725	500651
+Srrm2	serine/arginine repetitive matrix 2	XM_011246702.3	Nucleus	other			 	75956	 
+STRBP	spermatid perinuclear RNA binding protein	Strbp	Cytoplasm	other			55342	20744	84476
+TACC1	transforming acidic coiled-coil containing protein 1	NM_177089.5	Nucleus	transcription regulator			6867	320165	306562
+TECTB	tectorin beta	XM_006526902.2	Extracellular Space	other			6975	21684	292124
+TLCD1	TLC domain containing 1	Tlcd1	Plasma Membrane	other			116238	68385	287472
+TNRC6B	trinucleotide repeat containing adaptor 6B	NM_144812.3	Cytoplasm	other			23112	213988	192178
+TRPS1	transcriptional repressor GATA binding 1	Trps1	Nucleus	transcription regulator	diagnosis,prognosis		7227	83925	299897
+TSPAN15	tetraspanin 15	XM_011243561.2	Plasma Membrane	other			23555	70423	679462
+UBN2	ubinuclein 2	NM_177185.4	Nucleus	other			254048	320538	312248
+VEZT	vezatin, adherens junctions transmembrane protein	NM_001304720.1	Plasma Membrane	other			55591	215008	299738
+VMP1	vacuole membrane protein 1	NM_001356531.3	Cytoplasm	transporter			81671	75909	192129
+WDFY2	WD repeat and FYVE domain containing 2	XM_006519064.2	Cytoplasm	other			115825	268752	305956
+ZFTA	zinc finger translocation associated	XM_011247115.3	Nucleus	other			65998	108899	499309
+ZNF518A	zinc finger protein 518A	XM_011247364.2	Other	other			9849	72672	309478
